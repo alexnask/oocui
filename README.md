@@ -5,8 +5,8 @@ IUP supports SunOS, IRIX, AIX, FreeBSD, Linux, Mac and Windows platforms.
 
 ### Authors
 
-    * Alexandros Naskos (@shamanas)
+  * Alexandros Naskos (@shamanas)
 
 ### Links
 
-    * iup: http://www.tecgraf.puc-rio.br/iup/
+  * iup: http://www.tecgraf.puc-rio.br/iup/
