@@ -5,7 +5,8 @@ Includes: iup/iup.h, iup/iupcontrols.h
 
 version(windows) {
     Libs: -liup, -lgdi32, -lcomdlg32, -lcomctl32, -luuid, -lole32
-} else {
+}
+version(!windows) {
     Libs: -liup, -lXm, -lXmu, -lXt, -lX11, -lm
     Pkgs: gtk+-2.0
 }
