@@ -1,4 +1,6 @@
-Handle: cover from IHandle* {
+include iup
+
+Handle: cover from Ihandle* {
     new: static extern(IupCreate) func(CString) -> Handle
     new: static extern(IupCreatev) func ~withParams (CString, Pointer*) -> Handle
     new: static extern(IupCreatep) func ~withVaArgs (CString, Pointer, ...) -> Handle
